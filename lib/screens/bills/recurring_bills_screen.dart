@@ -21,10 +21,23 @@ class RecurringBillsScreen extends ConsumerWidget {
       appBar: AppBar(
         title: const Text('Recurring Bills'),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.add_rounded),
-            tooltip: 'Add Recurring Bill',
-            onPressed: () => _showAddBillDialog(context, ref),
+          Padding(
+            padding: const EdgeInsets.only(right: 16),
+            child: ElevatedButton.icon(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFFFFD83D),
+                foregroundColor: AppColors.textPrimary,
+                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                elevation: 0,
+              ),
+              onPressed: () => _showAddBillDialog(context, ref),
+              icon: const Icon(Icons.add_rounded, size: 18),
+              label: const Text(
+                'Add Bill',
+                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 13),
+              ),
+            ),
           ),
         ],
       ),
