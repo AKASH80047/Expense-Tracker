@@ -21,7 +21,7 @@
     <img src="https://img.shields.io/badge/Hire_on_Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" height="36" />
   </a>
   &nbsp;
-  <a href="https://akp991892-portfolio.web.app" target="_blank">
+  <a href="https://akash-pandey-portfolio.web.app/" target="_blank">
     <img src="https://img.shields.io/badge/Live_Portfolio-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" />
   </a>
 
@@ -51,5 +51,5 @@ I build secure, high-performance financial management, budgeting, and dashboard 
 
 - 🎯 **Order on Fiverr**: [fiverr.com/akashpandey318](https://www.fiverr.com/akashpandey318)
 - 💼 **Hire on Upwork**: [Upwork Profile](https://www.upwork.com/freelancers/~01e0a297e6e580e0c0)
-- 🌐 **Portfolio**: [akp991892-portfolio.web.app](https://akp991892-portfolio.web.app)
+- 🌐 **Portfolio**: [akash-pandey-portfolio.web.app](https://akash-pandey-portfolio.web.app/)
 - 📧 **Direct Email**: [akp991892@gmail.com](mailto:akp991892@gmail.com)
