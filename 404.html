@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script>
+    // Permanent fallback redirect handler for GitHub Pages
+    var path = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+
+    // Check if path starts with lowercase or uppercase expense-tracker
+    if (path.toLowerCase().indexOf('/expense-tracker') === 0) {
+      var subPath = path.substring(path.toLowerCase().indexOf('/expense-tracker') + 16);
+      if (!subPath.startsWith('/')) {
+        subPath = '/' + subPath;
+      }
+      var target = '/Expense-Tracker' + (subPath === '/' ? '/' : subPath) + search + hash;
+      if (window.location.pathname !== target) {
+        window.location.replace(target);
+      } else {
+        window.location.replace('/Expense-Tracker/');
+      }
+    } else {
+      window.location.replace('/Expense-Tracker/');
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to Expense Tracker...</p>
+</body>
+</html>
