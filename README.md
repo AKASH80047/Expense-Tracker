@@ -1,74 +1,55 @@
-# 💰 Expense Tracker & Budget Planner
+# 💰 Expense Tracker — Personal Finance & Analytics Suite (Flutter Mobile & Web)
 
-A modern, comprehensive personal finance and expense tracking application built with **Flutter** and **Riverpod**. Manage daily expenses, track budgets, set savings goals, manage recurring bills, and gain visual financial insights.
+<div align="center">
 
-🌐 **Live Demo URL**: [https://akash80047.github.io/Expense-Tracker/](https://akash80047.github.io/Expense-Tracker/)
+  <img src="https://img.shields.io/badge/Flutter_Web_%26_Mobile-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase_Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/FL_Charts-4CAF50?style=for-the-badge&logo=chartdotjs&logoColor=white" />
+  <a href="https://expense-tracker-81bcf.web.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Web_Demo-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
 
----
+  <br/><br/>
 
-## ✨ Features
+  <!-- QUICK HIRE CTA -->
+  <a href="https://www.fiverr.com/akashpandey318" target="_blank">
+    <img src="https://img.shields.io/badge/Hire_Me_on_Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" height="36" />
+  </a>
+  &nbsp;
+  <a href="https://www.upwork.com/freelancers/~01e0a297e6e580e0c0" target="_blank">
+    <img src="https://img.shields.io/badge/Hire_on_Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" height="36" />
+  </a>
+  &nbsp;
+  <a href="https://akp991892-portfolio.web.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Portfolio-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" height="36" />
+  </a>
 
-- 📊 **Smart Dashboard**: Real-time balance cards, income vs expense breakdowns, and dynamic interactive trend charts.
-- 💸 **Expense & Income Tracking**: Categorized transactions with date, notes, and payment mode support.
-- 🎯 **Savings Goals**: Set target amounts and monitor your saving milestones.
-- 📑 **Recurring Bills & Subscriptions**: Track upcoming bills, due dates, and payment statuses.
-- 📈 **Analytics & Reports**: Visual category distributions, spending habits, and exportable financial summaries.
-- 👛 **Multiple Wallets / Accounts**: Manage cash, bank accounts, and digital wallets.
-- 🤖 **AI Financial Assistant**: Integrated smart insights for budget optimization.
-- 🧾 **Receipt Scanner**: Easily capture and attach receipt images.
-- 🎨 **Modern & Responsive UI**: Smooth micro-animations, glassmorphism design, and dark mode support.
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (`>= 3.13.2`)
-- [Dart SDK](https://dart.dev/get-dart)
-- Git
-
-### Installation & Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/AKASH80047/Expense-Tracker.git
-   cd Expense-Tracker
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Run on Web:**
-   ```bash
-   flutter run -d chrome
-   ```
-
-4. **Run on Android / iOS / Desktop:**
-   ```bash
-   flutter run
-   ```
+</div>
 
 ---
 
-## 🛠 Tech Stack
+## 📱 About the Project
 
-- **Framework**: Flutter
-- **Language**: Dart
-- **State Management**: Flutter Riverpod
-- **Fonts & Icons**: Google Fonts, Cupertino Icons
-- **Formatting**: `intl`
-- **Hosting / CI/CD**: GitHub Actions & GitHub Pages
+**Expense Tracker** is a cross-platform personal finance and budgeting management platform built with **Flutter Web & Mobile, Firebase Firestore, and interactive charts**. It enables users to track daily incomes/expenses, visualize monthly trends with dynamic charts, and receive budget limit warnings.
 
 ---
 
-## 📦 Deployment (GitHub Pages)
+## ⚡ Key Features
 
-This repository includes automated CI/CD via GitHub Actions (`.github/workflows/deploy.yml`). Any push to `main` branch builds the Flutter Web app and automatically deploys it to GitHub Pages.
+- 📊 **Dynamic Visual Analytics**: Interactive pie charts, category breakdown rings, and monthly turnover graphs using `fl_chart`.
+- ⚡ **Real-Time Cloud Synchronization**: Offline-first persistence backed by Cloud Firestore real-time snapshots.
+- 🏷️ **Custom Category Budgeting**: Set monthly spending limits with automatic alerts.
+- 📱 **Multi-Platform Deployment**: Runs seamlessly on Android, iOS, and Web.
+- 🌐 **Live Web Demo**: [expense-tracker-81bcf.web.app](https://expense-tracker-81bcf.web.app)
 
-To enable GitHub Pages in your repo settings:
-1. Go to **Settings** > **Pages** in your GitHub repository.
-2. Under **Build and deployment** > **Source**, select **GitHub Actions**.
-3. Once the workflow finishes, your live app is available at:
-   `https://akash80047.github.io/Expense-Tracker/`
+---
+
+## 💼 Need a FinTech or SaaS Mobile App Built?
+
+I build secure, high-performance financial management, budgeting, and dashboard applications.
+
+- 🎯 **Order on Fiverr**: [fiverr.com/akashpandey318](https://www.fiverr.com/akashpandey318)
+- 💼 **Hire on Upwork**: [Upwork Profile](https://www.upwork.com/freelancers/~01e0a297e6e580e0c0)
+- 🌐 **Portfolio**: [akp991892-portfolio.web.app](https://akp991892-portfolio.web.app)
+- 📧 **Direct Email**: [akp991892@gmail.com](mailto:akp991892@gmail.com)
